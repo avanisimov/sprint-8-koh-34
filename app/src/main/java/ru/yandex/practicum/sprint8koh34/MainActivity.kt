@@ -17,6 +17,6 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        Log.d("TAG", "onCreate: 4")
+        Log.d("TAG", "onCreate: 5")
     }
 }
