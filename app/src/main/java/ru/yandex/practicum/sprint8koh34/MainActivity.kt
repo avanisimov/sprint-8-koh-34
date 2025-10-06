@@ -18,5 +18,16 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
+        Log.d("TAG", "onCreate: 51231234234")
     }
 }
