@@ -2,6 +2,6 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Sprint8koh34" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+         <item name="colorPrimary">#f0f</item>
     </style>
 </resources>

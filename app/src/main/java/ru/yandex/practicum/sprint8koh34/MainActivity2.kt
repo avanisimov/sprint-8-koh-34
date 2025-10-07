@@ -1,45 +1,20 @@
 package ru.yandex.practicum.sprint8koh34
 
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.widget.FrameLayout
-import android.widget.LinearLayout
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main2)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-//        val mainFrameLayout = this.findViewById<FrameLayout>(R.id.main)
-        findViewById<View>(R.id.btn1).setOnClickListener {
-
-        }
-        findViewById<View>(R.id.btn2).setOnClickListener {
-
-        }
-        findViewById<View>(R.id.btn3).setOnClickListener {
-
-        }
-        Log.d("TAG", "onCreate: 51231234234")
-    }
-
-
-    fun method1() {
-        var a = 123
-    }
-
-    fun method2() {
-        var a = 123
     }
 }
